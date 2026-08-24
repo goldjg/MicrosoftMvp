@@ -95,7 +95,7 @@ class TargetAudience: IValidateSetValuesGenerator {
 
 #Defaults
 $SCRIPT:Tenant = 'MVP'
-[string]$SCRIPT:BaseUri = 'https://mavenprod-api.microsoft.com/api/'
+[string]$SCRIPT:BaseUri = 'https://mavenapi-prod.microsoft.com/api/'
 
 #This is used to track the context of the logged in user across runspaces to enable easy parallelization
 
